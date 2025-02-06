@@ -27,3 +27,19 @@ console.log(sortedArray2);
 
 const concatArrays = numberArr.concat(booleanArr);
 console.log(concatArrays);
+
+const arrNumbers = [];
+concatArrays.forEach((el) => {
+    if (typeof el === 'boolean'){
+        arrNumbers.push(el);
+    }
+});
+console.log(arrNumbers);
+
+const arrNumbers2 = anyArr.map((el) => {
+    if (typeof el === 'string') {
+        return el;
+    }
+    return null;
+});
+console.log(arrNumbers2);
