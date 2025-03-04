@@ -1,1 +1,1 @@
-set Mocha
+set Mocha-sinon
