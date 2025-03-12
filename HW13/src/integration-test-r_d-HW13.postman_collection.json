@@ -151,12 +151,12 @@
 					"apikey": [
 						{
 							"key": "value",
-							"value": "YOUR-API-KEY",
+							"value": "DEMO-API-KEY",
 							"type": "string"
 						},
 						{
 							"key": "key",
-							"value": "YOUR-API-KEY",
+							"value": "DEMO-API-KEY",
 							"type": "string"
 						}
 					]
