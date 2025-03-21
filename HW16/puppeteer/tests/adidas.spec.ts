@@ -1,3 +1,4 @@
+import { expect } from 'chai';
 import puppeteer, { Browser, BrowserContext, Page } from 'puppeteer';
 
 export async function sleep(time: number): Promise<void> {
@@ -39,19 +40,19 @@ describe('Puppeteer Adidas tests', function () {
         await Promise.all([
             page.waitForNavigation({ waitUntil: 'domcontentloaded' }),
             (
-                await page.locator(
+                page.locator(
                     '::-p-xpath(//*[@id="__layout"]/div/header/div/div[2]/div/div[3]/div[2]/div[3]/div/div[1]/div[3]/div[2]/a/span)'
                 )
             ).click()
         ]);
     });
 
-    it('adding equip to favor', async () => {
+    it('add equip to favor and verify added item in favorites list', async () => {
         await page.goto('https://adidas.ua/', { waitUntil: 'domcontentloaded' });
         await Promise.all([
             page.waitForNavigation({ waitUntil: 'domcontentloaded' }),
             (
-                await page.locator(
+                page.locator(
                     '::-p-xpath(//*[@id="__layout"]/div/header/div/div[2]/div/div[3]/div[2]/div[2]/ul/li[5]/a)'
                 )
             ).click()
@@ -59,7 +60,7 @@ describe('Puppeteer Adidas tests', function () {
         await Promise.all([
             page.waitForNavigation({ waitUntil: 'domcontentloaded' }),
             (
-                await page.locator(
+                page.locator(
                     '::-p-xpath(//div[1]/div/div/div[1]/main/div/section[1]/div/div[2]/div/div[2]/div[1]/div[3]/a/div[2])'
                 )
             ).click()
@@ -67,7 +68,7 @@ describe('Puppeteer Adidas tests', function () {
         await Promise.all([
             page.waitForNavigation({ waitUntil: 'domcontentloaded' }),
             (
-                await page.locator(
+                page.locator(
                     '::-p-xpath(//*[@id="__layout"]/div/div[1]/main/div/div[3]/div/section/div/div[1]/div/a/span[1]/div)'
                 )
             ).click()
@@ -75,10 +76,21 @@ describe('Puppeteer Adidas tests', function () {
         await Promise.all([
             page.waitForNavigation({ waitUntil: 'domcontentloaded' }),
             (
-                await page.locator(
+                page.locator(
                     '::-p-xpath(//*[@id="__layout"]/div/div[1]/main/div/div[2]/section/div[3]/div/div[3]/div/div[2]/button)'
                 )
             ).click()
         ]);
+        await Promise.all([
+            page.waitForNavigation({ waitUntil: 'domcontentloaded' }),
+            (
+                page.locator(
+                    '::-p-xpath(//*[@id="__layout"]/div/header/div/div[2]/div/div[3]/div[2]/div[3]/div/div[4]/a)'
+                )
+            ).click()
+        ]);
+
+        const favoritesListText = await page.$eval('//*[@id="__layout"]/div/div[1]/main/section', el => el.textContent);
+        expect(favoritesListText).to.include('League Fold-Over');
     });
 });
