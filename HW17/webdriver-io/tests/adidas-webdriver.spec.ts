@@ -1,9 +1,9 @@
+import { browser } from '@wdio/globals';
 import { expect } from 'expect-webdriverio';
-import { AdidasPage } from 'src/pages/adidas.page';
 
 describe('WebdriverIO Adidas tests', () => {
     beforeEach(async () => {
-        AdidasPage;
+        await browser.url('https://adidas.ua/');
     });
 
     it('all football equipment', async () => {
