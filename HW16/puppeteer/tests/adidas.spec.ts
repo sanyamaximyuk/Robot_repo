@@ -34,14 +34,14 @@ describe('Puppeteer Adidas tests', function () {
 
     it('all football equipment', async () => {
         await page.goto('https://adidas.ua/', { waitUntil: 'domcontentloaded' });
-        const inputSelector = '::-p-xpath(//*[@id="__layout"]/div/header/div/div[2]/div/div[3]/div[2]/div[3]/div/div[1]/div[1]/input)';
+        const inputSelector = '::-p-xpath(//input[@name="search-input"])';
         await page.waitForSelector(inputSelector);
         await page.type(inputSelector, 'football');
         await Promise.all([
             page.waitForNavigation({ waitUntil: 'domcontentloaded' }),
             (
                 page.locator(
-                    '::-p-xpath(//*[@id="__layout"]/div/header/div/div[2]/div/div[3]/div[2]/div[3]/div/div[1]/div[3]/div[2]/a/span)'
+                    '::-p-xpath(//div[2]/a/span)'
                 )
             ).click()
         ]);
@@ -53,7 +53,7 @@ describe('Puppeteer Adidas tests', function () {
             page.waitForNavigation({ waitUntil: 'domcontentloaded' }),
             (
                 page.locator(
-                    '::-p-xpath(//*[@id="__layout"]/div/header/div/div[2]/div/div[3]/div[2]/div[2]/ul/li[5]/a)'
+                    '::-p-xpath(//div[2]/ul/li[5]/a)'
                 )
             ).click()
         ]);
@@ -61,7 +61,7 @@ describe('Puppeteer Adidas tests', function () {
             page.waitForNavigation({ waitUntil: 'domcontentloaded' }),
             (
                 page.locator(
-                    '::-p-xpath(//div[1]/div/div/div[1]/main/div/section[1]/div/div[2]/div/div[2]/div[1]/div[3]/a/div[2])'
+                    '::-p-xpath(//div[1]/section[2]/div/div[2]/div/div[1]/div[2]/div/a/div)'
                 )
             ).click()
         ]);
@@ -69,7 +69,7 @@ describe('Puppeteer Adidas tests', function () {
             page.waitForNavigation({ waitUntil: 'domcontentloaded' }),
             (
                 page.locator(
-                    '::-p-xpath(//*[@id="__layout"]/div/div[1]/main/div/div[3]/div/section/div/div[1]/div/a/span[1]/div)'
+                    '::-p-xpath(//div/div[1]/main/div/div[3]/div/section/div/div[1])'
                 )
             ).click()
         ]);
@@ -77,7 +77,7 @@ describe('Puppeteer Adidas tests', function () {
             page.waitForNavigation({ waitUntil: 'domcontentloaded' }),
             (
                 page.locator(
-                    '::-p-xpath(//*[@id="__layout"]/div/div[1]/main/div/div[2]/section/div[3]/div/div[3]/div/div[2]/button)'
+                    '::-p-xpath(//div[3]/div/div[3]/div/div[2]/button)'
                 )
             ).click()
         ]);
