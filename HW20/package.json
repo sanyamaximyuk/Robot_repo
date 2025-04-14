@@ -1,5 +1,5 @@
 {
-  "name": "hw19",
+  "name": "hw20",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -28,5 +28,10 @@
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.29.0"
+  },
+  "dependencies": {
+    "@types/chai": "^5.2.1",
+    "chai": "^5.2.0",
+    "playwright": "^1.51.1"
   }
 }
