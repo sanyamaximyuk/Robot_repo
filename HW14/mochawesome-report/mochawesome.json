@@ -1,0 +1,304 @@
+{
+  "stats": {
+    "suites": 6,
+    "tests": 5,
+    "passes": 3,
+    "pending": 0,
+    "failures": 2,
+    "start": "2025-04-17T12:08:40.328Z",
+    "end": "2025-04-17T12:08:43.621Z",
+    "duration": 3293,
+    "testsRegistered": 5,
+    "passPercent": 60,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "15b7acab-abb4-48e5-ac2b-73df46088ae9",
+      "title": "",
+      "fullFile": "C:\\Users\\omaksymiuk\\source\\robot_play\\HW14\\tests\\random-joke.spec.ts",
+      "file": "\\tests\\random-joke.spec.ts",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "33b5bff2-b67e-4558-b105-a5c5b8002844",
+          "title": "JokeApiService",
+          "fullFile": "C:\\Users\\omaksymiuk\\source\\robot_play\\HW14\\tests\\random-joke.spec.ts",
+          "file": "\\tests\\random-joke.spec.ts",
+          "beforeHooks": [
+            {
+              "title": "\"before each\" hook in \"JokeApiService\"",
+              "fullTitle": "JokeApiService \"before each\" hook in \"JokeApiService\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "jokeService=new import_joke_api.JokeApiService",
+              "err": {},
+              "uuid": "fbf34fb8-cf7a-4be5-9908-72e11fb63792",
+              "parentUUID": "33b5bff2-b67e-4558-b105-a5c5b8002844",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "34ca86b2-1436-4ca1-9aad-c1d37f89935c",
+              "title": "getRandomJoke",
+              "fullFile": "C:\\Users\\omaksymiuk\\source\\robot_play\\HW14\\tests\\random-joke.spec.ts",
+              "file": "\\tests\\random-joke.spec.ts",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "should return a random joke",
+                  "fullTitle": "JokeApiService getRandomJoke should return a random joke",
+                  "timedOut": false,
+                  "duration": 1511,
+                  "state": "passed",
+                  "speed": "slow",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "const joke=await jokeService.getRandomJoke();assert.ok(joke,\"Joke should not be null\");assert.strictEqual(typeof joke?.type,\"string\",\"Type should be a string\");assert.strictEqual(typeof joke?.setup,\"string\",\"Setup should be a string\");assert.strictEqual(typeof joke?.punchline,\"string\",\"Punchline should be a string\");assert.strictEqual(typeof joke?.id,\"number\",\"ID should be a number\")",
+                  "err": {},
+                  "uuid": "2c7d4b95-1d5b-41b2-b7c9-866bf80ebde5",
+                  "parentUUID": "34ca86b2-1436-4ca1-9aad-c1d37f89935c",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "2c7d4b95-1d5b-41b2-b7c9-866bf80ebde5"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 1511,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            },
+            {
+              "uuid": "d068cccf-601c-4682-8442-b66b9c4cfd02",
+              "title": "getRandomTenJokes",
+              "fullFile": "C:\\Users\\omaksymiuk\\source\\robot_play\\HW14\\tests\\random-joke.spec.ts",
+              "file": "\\tests\\random-joke.spec.ts",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "should return 10 random jokes",
+                  "fullTitle": "JokeApiService getRandomTenJokes should return 10 random jokes",
+                  "timedOut": false,
+                  "duration": 208,
+                  "state": "passed",
+                  "speed": "slow",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "const jokes=await jokeService.getRandomTenJokes();assert.ok(jokes,\"Jokes should not be null\");assert.strictEqual(jokes?.length,10,\"Should return 10 jokes\");jokes?.forEach(joke=>{assert.strictEqual(typeof joke.type,\"string\",\"Type should be a string\");assert.strictEqual(typeof joke.setup,\"string\",\"Setup should be a string\");assert.strictEqual(typeof joke.punchline,\"string\",\"Punchline should be a string\");assert.strictEqual(typeof joke.id,\"number\",\"ID should be a number\")})",
+                  "err": {},
+                  "uuid": "36217df6-9d8b-4735-af83-5c61f8013804",
+                  "parentUUID": "d068cccf-601c-4682-8442-b66b9c4cfd02",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "36217df6-9d8b-4735-af83-5c61f8013804"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 208,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            },
+            {
+              "uuid": "01edb3f1-0cd4-48b0-9ef6-0569186a325f",
+              "title": "getJokeByType",
+              "fullFile": "C:\\Users\\omaksymiuk\\source\\robot_play\\HW14\\tests\\random-joke.spec.ts",
+              "file": "\\tests\\random-joke.spec.ts",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "should return a programming joke",
+                  "fullTitle": "JokeApiService getJokeByType should return a programming joke",
+                  "timedOut": false,
+                  "duration": 202,
+                  "state": "failed",
+                  "speed": null,
+                  "pass": false,
+                  "fail": true,
+                  "pending": false,
+                  "context": null,
+                  "code": "const joke=await jokeService.getJokeByType(\"programming\");assert.ok(joke,\"Joke should not be null\");assert.strictEqual(joke?.type,\"programming\",\"Type should be programming\");assert.strictEqual(typeof joke?.setup,\"string\",\"Setup should be a string\");assert.strictEqual(typeof joke?.punchline,\"string\",\"Punchline should be a string\");assert.strictEqual(typeof joke?.id,\"number\",\"ID should be a number\")",
+                  "err": {
+                    "message": "AssertionError: Type should be programming\n+ actual - expected\n\n+ undefined\n- 'programming'\n",
+                    "estack": "AssertionError [ERR_ASSERTION]: Type should be programming\n+ actual - expected\n\n+ undefined\n- 'programming'\n\n    at Context.<anonymous> (tests\\random-joke.spec.ts:41:20)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+                    "diff": null
+                  },
+                  "uuid": "3cfa59e2-c43b-41eb-aada-c0fb62e0f491",
+                  "parentUUID": "01edb3f1-0cd4-48b0-9ef6-0569186a325f",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [],
+              "failures": [
+                "3cfa59e2-c43b-41eb-aada-c0fb62e0f491"
+              ],
+              "pending": [],
+              "skipped": [],
+              "duration": 202,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            },
+            {
+              "uuid": "825e252f-1fa6-475f-9a4a-c060381934e8",
+              "title": "getTenJokesByType",
+              "fullFile": "C:\\Users\\omaksymiuk\\source\\robot_play\\HW14\\tests\\random-joke.spec.ts",
+              "file": "\\tests\\random-joke.spec.ts",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "should return 10 programming jokes",
+                  "fullTitle": "JokeApiService getTenJokesByType should return 10 programming jokes",
+                  "timedOut": false,
+                  "duration": 199,
+                  "state": "passed",
+                  "speed": "slow",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "const jokes=await jokeService.getTenJokesByType(\"programming\");assert.ok(jokes,\"Jokes should not be null\");assert.strictEqual(jokes?.length,10,\"Should return 10 jokes\");jokes?.forEach(joke=>{assert.strictEqual(joke.type,\"programming\",\"Type should be programming\");assert.strictEqual(typeof joke.setup,\"string\",\"Setup should be a string\");assert.strictEqual(typeof joke.punchline,\"string\",\"Punchline should be a string\");assert.strictEqual(typeof joke.id,\"number\",\"ID should be a number\")})",
+                  "err": {},
+                  "uuid": "1f837f02-be87-4c29-aa2e-5b6697d77dba",
+                  "parentUUID": "825e252f-1fa6-475f-9a4a-c060381934e8",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "1f837f02-be87-4c29-aa2e-5b6697d77dba"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 199,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            },
+            {
+              "uuid": "e05babb6-6a02-4aeb-9c7a-40cba454a4ea",
+              "title": "getJokeByType (invalid type)",
+              "fullFile": "C:\\Users\\omaksymiuk\\source\\robot_play\\HW14\\tests\\random-joke.spec.ts",
+              "file": "\\tests\\random-joke.spec.ts",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "should return null for an invalid joke type",
+                  "fullTitle": "JokeApiService getJokeByType (invalid type) should return null for an invalid joke type",
+                  "timedOut": false,
+                  "duration": 1155,
+                  "state": "failed",
+                  "speed": null,
+                  "pass": false,
+                  "fail": true,
+                  "pending": false,
+                  "context": null,
+                  "code": "const joke=await jokeService.getJokeByType(\"invalid_type\");assert.strictEqual(joke,null,\"Should return null for invalid type\")",
+                  "err": {
+                    "message": "AssertionError: Should return null for invalid type\n\n[] !== null\n",
+                    "estack": "AssertionError [ERR_ASSERTION]: Should return null for invalid type\n\n[] !== null\n\n    at Context.<anonymous> (tests\\random-joke.spec.ts:65:20)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+                    "diff": null
+                  },
+                  "uuid": "ce79ce8f-c132-4ee9-8f19-b54ee79723b6",
+                  "parentUUID": "e05babb6-6a02-4aeb-9c7a-40cba454a4ea",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [],
+              "failures": [
+                "ce79ce8f-c132-4ee9-8f19-b54ee79723b6"
+              ],
+              "pending": [],
+              "skipped": [],
+              "duration": 1155,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "11.1.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "[object Object]": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

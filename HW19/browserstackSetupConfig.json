@@ -1,0 +1,25 @@
+userName: oleksandrmaximyu_iajh87
+accessKey: 8iKoUsh8B8FsB8ytm94Y
+projectName: r_d
+buildName: r_d playwright test build
+buildIdentifier: '#3'
+platforms:
+  - os: Windows
+    osVersion: 10
+    browserName: Edge
+    browserVersion: latest
+parallelsPerPlatform: 1
+browserstackLocal: true
+debug: false
+networkLogs: false
+consoleLogs: errors
+CUSTOM_TAG_1: You can set a custom Build Tag here
+testObservability: true
+browserstackAutomation: false
+testContextOptions:
+  skipSessionStatus: true
+  skipSessionName: true
+browserStackLocalOptions:
+  localIdentifier: 17_Apr_1610_omaksymiuk2_ii03
+  skipBinaryInitialisation: false
+proxySettings: {}
