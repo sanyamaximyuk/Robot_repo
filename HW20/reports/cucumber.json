@@ -1,0 +1,308 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "sinsay-website-tests;check-if-the-home-page-opens-correctly",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Check if the home page opens correctly",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 18930299
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 399364400
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 7530980999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I have navigated to the Sinsay home page and accepted cookies",
+            "match": {
+              "location": "file:\\C:\\Users\\omaksymiuk\\source\\robot_play\\HW20\\src\\steps\\sinsay.steps.ts:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 377099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the home page should open correctly",
+            "match": {
+              "location": "file:\\C:\\Users\\omaksymiuk\\source\\robot_play\\HW20\\src\\steps\\sinsay.steps.ts:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 113667100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 102616099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 8147100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1120641100
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "sinsay-website-tests;search-for-a-product-and-verify-results",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Search for a product and verify results",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 10153800
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 200236300
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3937643100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I have navigated to the Sinsay home page and accepted cookies",
+            "match": {
+              "location": "file:\\C:\\Users\\omaksymiuk\\source\\robot_play\\HW20\\src\\steps\\sinsay.steps.ts:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 235699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I search for \"Футболка\"",
+            "match": {
+              "location": "file:\\C:\\Users\\omaksymiuk\\source\\robot_play\\HW20\\src\\steps\\sinsay.steps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1019601200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should see search results containing \"футболка\"",
+            "match": {
+              "location": "file:\\C:\\Users\\omaksymiuk\\source\\robot_play\\HW20\\src\\steps\\sinsay.steps.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1025966999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 85289899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 7741200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 842248700
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "sinsay-website-tests;navigate-to-a-product-details-page",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Navigate to a product details page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 5635099
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 193514400
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3523065300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I have navigated to the Sinsay home page and accepted cookies",
+            "match": {
+              "location": "file:\\C:\\Users\\omaksymiuk\\source\\robot_play\\HW20\\src\\steps\\sinsay.steps.ts:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 148100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I search for \"Джинси\"",
+            "match": {
+              "location": "file:\\C:\\Users\\omaksymiuk\\source\\robot_play\\HW20\\src\\steps\\sinsay.steps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 740131500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I navigate to the first product details page",
+            "match": {
+              "location": "file:\\C:\\Users\\omaksymiuk\\source\\robot_play\\HW20\\src\\steps\\sinsay.steps.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1089100399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I should see a product details page with a title",
+            "match": {
+              "location": "file:\\C:\\Users\\omaksymiuk\\source\\robot_play\\HW20\\src\\steps\\sinsay.steps.ts:42"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 30003107400,
+              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoBeNull\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mnull\u001b[39m\n    at Proxy.<anonymous> (C:\\Users\\omaksymiuk\\source\\robot_play\\HW20\\node_modules\\playwright\\lib\\matchers\\expect.js:254:37)\n    at file:///C:/Users/omaksymiuk/source/robot_play/HW20/src/steps/sinsay.steps.ts:44:37\n    at fulfilled (file:///C:/Users/omaksymiuk/source/robot_play/HW20/src/steps/sinsay.steps.ts:4:58)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 79390899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 7302899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3966836099
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "sinsay-website-tests",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Sinsay Website Tests",
+    "tags": [],
+    "uri": "features\\sinsay.feature"
+  }
+]

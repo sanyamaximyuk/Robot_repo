@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<testsuite name="Cucumber" time="138.579" tests="3" skipped="0" failures="1" errors="0" timestamp="2025-04-14T12:36:02.124Z">
+  <testcase classname="Sinsay Website Tests" name="Check if the home page opens correctly" time="9.305">
+    <system-out><![CDATA[Given I have navigated to the Sinsay home page and accepted cookies.........passed
+Then the home page should open correctly....................................passed]]></system-out>
+  </testcase>
+  <testcase classname="Sinsay Website Tests" name="Search for a product and verify results" time="7.14">
+    <system-out><![CDATA[Given I have navigated to the Sinsay home page and accepted cookies.........passed
+When I search for "Футболка"................................................passed
+Then I should see search results containing "футболка"......................passed]]></system-out>
+  </testcase>
+  <testcase classname="Sinsay Website Tests" name="Navigate to a product details page" time="39.616">
+    <failure type="Error" message="[2mexpect([22m[31mreceived[39m[2m).[22mnot[2m.[22mtoBeNull[2m()[22m&#xA;&#xA;Received: [31mnull[39m"><![CDATA[    at Proxy.<anonymous> (C:\Users\omaksymiuk\source\robot_play\HW20\node_modules\playwright\lib\matchers\expect.js:254:37)
+    at file:///C:/Users/omaksymiuk/source/robot_play/HW20/src/steps/sinsay.steps.ts:44:37
+    at fulfilled (file:///C:/Users/omaksymiuk/source/robot_play/HW20/src/steps/sinsay.steps.ts:4:58)]]></failure>
+    <system-out><![CDATA[Given I have navigated to the Sinsay home page and accepted cookies.........passed
+When I search for "Джинси"..................................................passed
+And I navigate to the first product details page............................passed
+Then I should see a product details page with a title.......................failed]]></system-out>
+  </testcase>
+</testsuite>
