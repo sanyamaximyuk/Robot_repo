@@ -1,0 +1,377 @@
+2025-04-17 16:10:58 - [32minfo[39m: Running SDK with args C:\nvm4w\nodejs\node.exe C:\Users\omaksymiuk\source\robot_play\HW19\node_modules\browserstack-node-sdk\src\bin\runner.js playwright test
+2025-04-17 16:10:58 - [32minfo[39m: Reading configs from C:\Users\omaksymiuk\source\robot_play\HW19\browserstack.yml
+2025-04-17 16:10:58 - [32minfo[39m: SDK run started with id: 85239cc1-c7a8-4d9f-b84d-863352980487
+2025-04-17 16:10:58 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/package.json, package - @playwright/test
+2025-04-17 16:10:58 - [34mdebug[39m: requireModuleV2 :: module - @playwright/test/package.json, package - @playwright/test
+2025-04-17 16:10:58 - [34mdebug[39m: requireModuleV3 :: module - selenium-webdriver/package.json, package - selenium-webdriver
+2025-04-17 16:10:58 - [34mdebug[39m: Unable to resolve module with requireModuleV3 with error: Error: Cannot find module 'selenium-webdriver'
+Require stack:
+- C:\Users\omaksymiuk\source\robot_play\HW19\node_modules\browserstack-node-sdk\src\helpers\helper.js
+- C:\Users\omaksymiuk\source\robot_play\HW19\node_modules\browserstack-node-sdk\src\bin\runner.js
+2025-04-17 16:10:58 - [34mdebug[39m: requireModuleV2 :: module - selenium-webdriver/package.json, package - selenium-webdriver
+2025-04-17 16:10:58 - [34mdebug[39m: Getting selenium-webdriver/package.json from C:\Users\omaksymiuk\source\robot_play\HW19
+2025-04-17 16:10:58 - [34mdebug[39m: selenium-webdriver/package.json doesn't exist at C:\Users\omaksymiuk\source\robot_play\HW19
+2025-04-17 16:10:58 - [34mdebug[39m: Getting selenium-webdriver/package.json from path C:\Users\omaksymiuk\source\robot_play\HW19
+2025-04-17 16:10:58 - [34mdebug[39m: Getting selenium-webdriver/package.json from null
+2025-04-17 16:10:58 - [34mdebug[39m: Error while loading package. Error: selenium-webdriver/package.json doesn't exist.
+2025-04-17 16:10:58 - [34mdebug[39m: requireModuleV3 :: module - playwright/lib/transform/transform.js, package - playwright
+2025-04-17 16:10:58 - [34mdebug[39m: Resolved from resolveModuleV3 :: Path - C:\Users\omaksymiuk\source\robot_play\HW19\node_modules\playwright\lib\transform\transform.js
+2025-04-17 16:10:58 - [34mdebug[39m: Firing SDK event for funnel data: {"userName":"[REDACTED]","accessKey":"[REDACTED]","event_type":"SDKTestAttempted","detectedFramework":"Playwright","optimalHubUrl":[],"event_properties":{"testhub_uuid":"","sdkRunId":"85239cc1-c7a8-4d9f-b84d-863352980487","product_map":{"observability":true,"accessibility":false,"percy":false,"automate":false,"app_automate":false,"central_scanner":false,"lcnc":false},"productMap":{"observability":true,"accessibility":false,"percy":false,"automate":false,"app_automate":false,"central_scanner":false,"lcnc":false},"language_framework":"unknown","referrer":"Playwright-nodeagent/1.34.53","frameworkVersion":"1.51.1","automationFramework":"selenium","automationFrameworkVersion":null,"language":"nodejs","languageVersion":"v22.13.0","product":["observability"],"buildName":"r_d playwright test build","buildIdentifier":"#3","os":"Windows_NT","hostname":"omaksymiuk2","playwrightVersion":{}}}
+2025-04-17 16:10:59 - [34mdebug[39m: Response: {"hubs":["hub-euw.browserstack.com","hub-use.browserstack.com","hub-aps.browserstack.com"]}
+2025-04-17 16:10:59 - [34mdebug[39m: NEAREST HUBS: ["hub-euw.browserstack.com","hub-use.browserstack.com","hub-aps.browserstack.com"]
+2025-04-17 16:10:59 - [34mdebug[39m: API Event SDKTestAttempted response - {"data":{"message":"SDK Event recorded successfully"},"body":"{\"message\":\"SDK Event recorded successfully\"}","statusCode":200}
+2025-04-17 16:10:59 - [34mdebug[39m: Execution time for https://hub-euw.browserstack.com is: 205ms
+2025-04-17 16:10:59 - [34mdebug[39m: Execution time for https://hub-use.browserstack.com is: 559ms
+2025-04-17 16:10:59 - [34mdebug[39m: Execution time for https://hub-aps.browserstack.com is: 662ms
+2025-04-17 16:10:59 - [34mdebug[39m: HUB URL SET TO - https://hub-euw.browserstack.com
+2025-04-17 16:10:59 - [34mdebug[39m: requireModuleV3 :: module - playwright/lib/common/configLoader.js, package - playwright
+2025-04-17 16:10:59 - [34mdebug[39m: Resolved from resolveModuleV3 :: Path - C:\Users\omaksymiuk\source\robot_play\HW19\node_modules\playwright\lib\common\configLoader.js
+2025-04-17 16:11:00 - [34mdebug[39m: [OBSERVABILITY] Build Created Successfully with hashed id: txmay2ghgtetv35wkauefdc9vselsstmz1bpcimo
+2025-04-17 16:11:00 - [34mdebug[39m: BROWSERSTACK_TESTHUB_UUID: txmay2ghgtetv35wkauefdc9vselsstmz1bpcimo
+2025-04-17 16:11:00 - [32minfo[39m: Testhub started with id: txmay2ghgtetv35wkauefdc9vselsstmz1bpcimo
+2025-04-17 16:11:00 - [34mdebug[39m: Updated config file name to - playwright-browserstack-sdk.config.ts
+2025-04-17 16:11:04 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/package.json, package - @playwright/test
+2025-04-17 16:11:04 - [34mdebug[39m: requireModuleV2 :: module - @playwright/test/package.json, package - @playwright/test
+2025-04-17 16:11:04 - [34mdebug[39m: requireModuleV3 :: module - playwright/lib/transform/transform.js, package - playwright
+2025-04-17 16:11:04 - [34mdebug[39m: Resolved from resolveModuleV3 :: Path - C:\Users\omaksymiuk\source\robot_play\HW19\node_modules\playwright\lib\transform\transform.js
+[34mdebug[39m: [2025-04-17T13:11:04.915Z][ OBSERVABILITY ] Call to child fork with args C:\Users\omaksymiuk\source\robot_play\HW19\node_modules\playwright\lib\common\process.js
+[34mdebug[39m: [2025-04-17T13:11:04.927Z][ OBSERVABILITY ] Call to child fork with args C:\Users\omaksymiuk\source\robot_play\HW19\node_modules\playwright\lib\common\process.js
+[34mdebug[39m: [2025-04-17T13:11:04.935Z][ OBSERVABILITY ] Call to child fork with args C:\Users\omaksymiuk\source\robot_play\HW19\node_modules\playwright\lib\common\process.js
+2025-04-17 16:11:07 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/package.json, package - @playwright/test
+2025-04-17 16:11:07 - [34mdebug[39m: requireModuleV2 :: module - @playwright/test/package.json, package - @playwright/test
+2025-04-17 16:11:07 - [34mdebug[39m: requireModuleV3 :: module - playwright/lib/common/process.js, package - playwright
+2025-04-17 16:11:07 - [34mdebug[39m: Resolved from resolveModuleV3 :: Path - C:\Users\omaksymiuk\source\robot_play\HW19\node_modules\playwright\lib\common\process.js
+2025-04-17 16:11:08 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/index.js, package - @playwright/test
+2025-04-17 16:11:08 - [34mdebug[39m: requireModuleV2 :: module - @playwright/test/index.js, package - @playwright/test
+2025-04-17 16:11:08 - [34mdebug[39m: Getting @playwright/test/index.js from C:\Users\omaksymiuk\source\robot_play\HW19
+2025-04-17 16:11:08 - [34mdebug[39m: requireModuleV3 :: module - @playwright\test\node_modules\playwright-core, package - @playwright/test
+2025-04-17 16:11:08 - [34mdebug[39m: requireModuleV2 :: module - @playwright\test\node_modules\playwright-core, package - @playwright/test
+2025-04-17 16:11:08 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from C:\Users\omaksymiuk\source\robot_play\HW19
+2025-04-17 16:11:08 - [34mdebug[39m: @playwright\test\node_modules\playwright-core doesn't exist at C:\Users\omaksymiuk\source\robot_play\HW19
+2025-04-17 16:11:08 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from path C:\Users\omaksymiuk\source\robot_play\HW19
+2025-04-17 16:11:08 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from null
+2025-04-17 16:11:08 - [34mdebug[39m: requireModuleV2 :: module - playwright-core, package - null
+2025-04-17 16:11:08 - [34mdebug[39m: Resolved path for playwright-core is C:\Users\omaksymiuk\source\robot_play\HW19\node_modules\playwright-core
+2025-04-17 16:11:08 - [34mdebug[39m: requireModuleV2 :: module - C:\Users\omaksymiuk\source\robot_play\HW19\node_modules\playwright-core\lib\client\connection.js, package - null
+2025-04-17 16:11:07 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/package.json, package - @playwright/test
+2025-04-17 16:11:07 - [34mdebug[39m: requireModuleV2 :: module - @playwright/test/package.json, package - @playwright/test
+2025-04-17 16:11:07 - [34mdebug[39m: requireModuleV3 :: module - playwright/lib/common/process.js, package - playwright
+2025-04-17 16:11:07 - [34mdebug[39m: Resolved from resolveModuleV3 :: Path - C:\Users\omaksymiuk\source\robot_play\HW19\node_modules\playwright\lib\common\process.js
+2025-04-17 16:11:08 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/index.js, package - @playwright/test
+2025-04-17 16:11:08 - [34mdebug[39m: requireModuleV2 :: module - @playwright/test/index.js, package - @playwright/test
+2025-04-17 16:11:08 - [34mdebug[39m: Getting @playwright/test/index.js from C:\Users\omaksymiuk\source\robot_play\HW19
+2025-04-17 16:11:08 - [34mdebug[39m: requireModuleV3 :: module - @playwright\test\node_modules\playwright-core, package - @playwright/test
+2025-04-17 16:11:08 - [34mdebug[39m: requireModuleV2 :: module - @playwright\test\node_modules\playwright-core, package - @playwright/test
+2025-04-17 16:11:08 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from C:\Users\omaksymiuk\source\robot_play\HW19
+2025-04-17 16:11:08 - [34mdebug[39m: @playwright\test\node_modules\playwright-core doesn't exist at C:\Users\omaksymiuk\source\robot_play\HW19
+2025-04-17 16:11:08 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from path C:\Users\omaksymiuk\source\robot_play\HW19
+2025-04-17 16:11:08 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from null
+2025-04-17 16:11:08 - [34mdebug[39m: requireModuleV2 :: module - playwright-core, package - null
+2025-04-17 16:11:08 - [34mdebug[39m: Resolved path for playwright-core is C:\Users\omaksymiuk\source\robot_play\HW19\node_modules\playwright-core
+2025-04-17 16:11:08 - [34mdebug[39m: requireModuleV2 :: module - C:\Users\omaksymiuk\source\robot_play\HW19\node_modules\playwright-core\lib\client\connection.js, package - null
+2025-04-17 16:11:07 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/package.json, package - @playwright/test
+2025-04-17 16:11:07 - [34mdebug[39m: requireModuleV2 :: module - @playwright/test/package.json, package - @playwright/test
+2025-04-17 16:11:07 - [34mdebug[39m: requireModuleV3 :: module - playwright/lib/common/process.js, package - playwright
+2025-04-17 16:11:07 - [34mdebug[39m: Resolved from resolveModuleV3 :: Path - C:\Users\omaksymiuk\source\robot_play\HW19\node_modules\playwright\lib\common\process.js
+2025-04-17 16:11:08 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/index.js, package - @playwright/test
+2025-04-17 16:11:08 - [34mdebug[39m: requireModuleV2 :: module - @playwright/test/index.js, package - @playwright/test
+2025-04-17 16:11:08 - [34mdebug[39m: Getting @playwright/test/index.js from C:\Users\omaksymiuk\source\robot_play\HW19
+2025-04-17 16:11:09 - [34mdebug[39m: requireModuleV3 :: module - @playwright\test\node_modules\playwright-core, package - @playwright/test
+2025-04-17 16:11:09 - [34mdebug[39m: requireModuleV2 :: module - @playwright\test\node_modules\playwright-core, package - @playwright/test
+2025-04-17 16:11:09 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from C:\Users\omaksymiuk\source\robot_play\HW19
+2025-04-17 16:11:09 - [34mdebug[39m: @playwright\test\node_modules\playwright-core doesn't exist at C:\Users\omaksymiuk\source\robot_play\HW19
+2025-04-17 16:11:09 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from path C:\Users\omaksymiuk\source\robot_play\HW19
+2025-04-17 16:11:09 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from null
+2025-04-17 16:11:09 - [34mdebug[39m: requireModuleV2 :: module - playwright-core, package - null
+2025-04-17 16:11:09 - [34mdebug[39m: Resolved path for playwright-core is C:\Users\omaksymiuk\source\robot_play\HW19\node_modules\playwright-core
+2025-04-17 16:11:09 - [34mdebug[39m: requireModuleV2 :: module - C:\Users\omaksymiuk\source\robot_play\HW19\node_modules\playwright-core\lib\client\connection.js, package - null
+2025-04-17 16:11:09 - [34mdebug[39m: requireModuleV3 :: module - playwright/lib/transform/transform.js, package - playwright
+2025-04-17 16:11:09 - [34mdebug[39m: requireModuleV3 :: module - playwright/lib/transform/transform.js, package - playwright
+2025-04-17 16:11:09 - [34mdebug[39m: requireModuleV3 :: module - playwright/lib/transform/transform.js, package - playwright
+2025-04-17 16:11:09 - [34mdebug[39m: Resolved from resolveModuleV3 :: Path - C:\Users\omaksymiuk\source\robot_play\HW19\node_modules\playwright\lib\transform\transform.js
+2025-04-17 16:11:09 - [34mdebug[39m: Resolved from resolveModuleV3 :: Path - C:\Users\omaksymiuk\source\robot_play\HW19\node_modules\playwright\lib\transform\transform.js
+2025-04-17 16:11:09 - [34mdebug[39m: Resolved from resolveModuleV3 :: Path - C:\Users\omaksymiuk\source\robot_play\HW19\node_modules\playwright\lib\transform\transform.js
+[35msilly[39m: [2025-04-17T13:11:09.302Z][ OBSERVABILITY ] Test Started with unique id chromium-0ca67d56d32d3386bb81-b200d8cde63be7850fff
+[35msilly[39m: [2025-04-17T13:11:09.305Z][ OBSERVABILITY ] Started :: beforeWorkerHook, PID - 6472, Argument - 1
+2025-04-17 16:11:09 - [34mdebug[39m: Searching for key: path
+[35msilly[39m: [2025-04-17T13:11:09.306Z][ OBSERVABILITY ] Processing event - 'TestRunStarted' aa24df38-527b-4838-9beb-d8639f43eedc
+[35msilly[39m: [2025-04-17T13:11:09.309Z][ OBSERVABILITY ] Test Started with unique id chromium-0ca67d56d32d3386bb81-09d296e987b597f98cf3
+2025-04-17 16:11:09 - [34mdebug[39m: Searching for key: path
+[35msilly[39m: [2025-04-17T13:11:09.310Z][ OBSERVABILITY ] Processing event - 'TestRunStarted' 32cb2c69-1250-4b4a-8bf7-ce7d6a03473d
+[35msilly[39m: [2025-04-17T13:11:09.311Z][ OBSERVABILITY ] Started :: beforeWorkerHook, PID - 3104, Argument - 0
+[35msilly[39m: [2025-04-17T13:11:09.313Z][ OBSERVABILITY ] Test Started with unique id chromium-0ca67d56d32d3386bb81-a5eb9e2756e8f45fe25c
+2025-04-17 16:11:09 - [34mdebug[39m: Searching for key: path
+[35msilly[39m: [2025-04-17T13:11:09.314Z][ OBSERVABILITY ] Processing event - 'TestRunStarted' 8910e987-368f-4114-b9d6-7bae0df09a61
+[35msilly[39m: [2025-04-17T13:11:09.317Z][ OBSERVABILITY ] Started :: beforeWorkerHook, PID - 23320, Argument - 2
+[35msilly[39m: [2025-04-17T13:11:09.316Z][ OBSERVABILITY ] Hook Started with unique id beforeEach hook for chromium-0ca67d56d32d3386bb81-b200d8cde63be7850fff is triggered for test chromium-0ca67d56d32d3386bb81-b200d8cde63be7850fff-0
+[35msilly[39m: [2025-04-17T13:11:09.317Z][ OBSERVABILITY ] Processing event - 'HookRunStarted' 0a33fb30-5d1f-4832-8138-850d349e77ae
+[35msilly[39m: [2025-04-17T13:11:09.322Z][ OBSERVABILITY ] Hook Started with unique id beforeEach hook for chromium-0ca67d56d32d3386bb81-09d296e987b597f98cf3 is triggered for test chromium-0ca67d56d32d3386bb81-09d296e987b597f98cf3-0
+[35msilly[39m: [2025-04-17T13:11:09.322Z][ OBSERVABILITY ] Processing event - 'HookRunStarted' 7c6e8f45-65ae-4541-b3f4-dc6d5f66e0ac
+[35msilly[39m: [2025-04-17T13:11:09.324Z][ OBSERVABILITY ] Hook Started with unique id beforeEach hook for chromium-0ca67d56d32d3386bb81-a5eb9e2756e8f45fe25c is triggered for test chromium-0ca67d56d32d3386bb81-a5eb9e2756e8f45fe25c-0
+[35msilly[39m: [2025-04-17T13:11:09.325Z][ OBSERVABILITY ] Processing event - 'HookRunStarted' f18b8678-afac-421f-8cbd-b075d62ce194
+2025-04-17 16:11:09 - [34mdebug[39m: requireModuleV3 :: module - @playwright\test\node_modules\playwright-core, package - @playwright/test
+2025-04-17 16:11:09 - [34mdebug[39m: requireModuleV2 :: module - @playwright\test\node_modules\playwright-core, package - @playwright/test
+2025-04-17 16:11:09 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from C:\Users\omaksymiuk\source\robot_play\HW19
+2025-04-17 16:11:09 - [34mdebug[39m: @playwright\test\node_modules\playwright-core doesn't exist at C:\Users\omaksymiuk\source\robot_play\HW19
+2025-04-17 16:11:09 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from path C:\Users\omaksymiuk\source\robot_play\HW19
+2025-04-17 16:11:09 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from null
+2025-04-17 16:11:09 - [34mdebug[39m: requireModuleV2 :: module - playwright-core, package - null
+2025-04-17 16:11:09 - [34mdebug[39m: Resolved path for playwright-core is C:\Users\omaksymiuk\source\robot_play\HW19\node_modules\playwright-core
+2025-04-17 16:11:09 - [34mdebug[39m: requireModuleV2 :: module - C:\Users\omaksymiuk\source\robot_play\HW19\node_modules\playwright-core\lib\client\browserType.js, package - null
+2025-04-17 16:11:09 - [34mdebug[39m: requireModuleV3 :: module - @playwright\test\node_modules\playwright-core, package - @playwright/test
+2025-04-17 16:11:09 - [34mdebug[39m: requireModuleV2 :: module - @playwright\test\node_modules\playwright-core, package - @playwright/test
+2025-04-17 16:11:09 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from C:\Users\omaksymiuk\source\robot_play\HW19
+2025-04-17 16:11:09 - [34mdebug[39m: @playwright\test\node_modules\playwright-core doesn't exist at C:\Users\omaksymiuk\source\robot_play\HW19
+2025-04-17 16:11:09 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from path C:\Users\omaksymiuk\source\robot_play\HW19
+2025-04-17 16:11:09 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from null
+2025-04-17 16:11:09 - [34mdebug[39m: requireModuleV2 :: module - playwright-core, package - null
+2025-04-17 16:11:09 - [34mdebug[39m: Resolved path for playwright-core is C:\Users\omaksymiuk\source\robot_play\HW19\node_modules\playwright-core
+2025-04-17 16:11:09 - [34mdebug[39m: requireModuleV2 :: module - C:\Users\omaksymiuk\source\robot_play\HW19\node_modules\playwright-core\lib\client\browserContext.js, package - null
+2025-04-17 16:11:09 - [34mdebug[39m: requireModuleV3 :: module - @playwright\test\node_modules\playwright-core, package - @playwright/test
+2025-04-17 16:11:09 - [34mdebug[39m: requireModuleV2 :: module - @playwright\test\node_modules\playwright-core, package - @playwright/test
+2025-04-17 16:11:09 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from C:\Users\omaksymiuk\source\robot_play\HW19
+2025-04-17 16:11:09 - [34mdebug[39m: @playwright\test\node_modules\playwright-core doesn't exist at C:\Users\omaksymiuk\source\robot_play\HW19
+2025-04-17 16:11:09 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from path C:\Users\omaksymiuk\source\robot_play\HW19
+2025-04-17 16:11:09 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from null
+2025-04-17 16:11:09 - [34mdebug[39m: requireModuleV2 :: module - playwright-core, package - null
+2025-04-17 16:11:09 - [34mdebug[39m: Resolved path for playwright-core is C:\Users\omaksymiuk\source\robot_play\HW19\node_modules\playwright-core
+2025-04-17 16:11:09 - [34mdebug[39m: requireModuleV2 :: module - C:\Users\omaksymiuk\source\robot_play\HW19\node_modules\playwright-core\lib\client\android.js, package - null
+2025-04-17 16:11:09 - [34mdebug[39m: requireModuleV3 :: module - @playwright\test\node_modules\playwright-core, package - @playwright/test
+2025-04-17 16:11:09 - [34mdebug[39m: requireModuleV2 :: module - @playwright\test\node_modules\playwright-core, package - @playwright/test
+2025-04-17 16:11:09 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from C:\Users\omaksymiuk\source\robot_play\HW19
+2025-04-17 16:11:09 - [34mdebug[39m: @playwright\test\node_modules\playwright-core doesn't exist at C:\Users\omaksymiuk\source\robot_play\HW19
+2025-04-17 16:11:09 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from path C:\Users\omaksymiuk\source\robot_play\HW19
+2025-04-17 16:11:09 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from null
+2025-04-17 16:11:09 - [34mdebug[39m: requireModuleV2 :: module - playwright-core, package - null
+2025-04-17 16:11:09 - [34mdebug[39m: Resolved path for playwright-core is C:\Users\omaksymiuk\source\robot_play\HW19\node_modules\playwright-core
+2025-04-17 16:11:09 - [34mdebug[39m: requireModuleV2 :: module - C:\Users\omaksymiuk\source\robot_play\HW19\node_modules\playwright-core\lib\client\page.js, package - null
+[35msilly[39m: [2025-04-17T13:11:09.326Z][ OBSERVABILITY ] Finished :: beforeWorkerHook, PID - 6472, Argument - 1
+[34mdebug[39m: [2025-04-17T13:11:09.327Z][ OBSERVABILITY ] Worker Hook started, PID 6472
+[34mdebug[39m: [2025-04-17T13:11:09.335Z][ OBSERVABILITY ] Test Hook started, PID 6472
+[35msilly[39m: [2025-04-17T13:11:09.335Z][ OBSERVABILITY ] Started :: beforeTestHook, PID - 6472, Argument - Check footer links
+[35msilly[39m: [2025-04-17T13:11:09.336Z][ OBSERVABILITY ] Sending session details at beforeTestHook
+[35msilly[39m: [2025-04-17T13:11:09.336Z][ OBSERVABILITY ] Finished :: beforeTestHook, PID - 6472, Argument - Check footer links
+2025-04-17 16:11:09 - [34mdebug[39m: Error in connecting for android TypeError: Cannot read properties of null (reading 'deviceName')
+2025-04-17 16:11:09 - [34mdebug[39m: requireModuleV3 :: module - @playwright\test\node_modules\playwright-core, package - @playwright/test
+2025-04-17 16:11:09 - [34mdebug[39m: requireModuleV2 :: module - @playwright\test\node_modules\playwright-core, package - @playwright/test
+2025-04-17 16:11:09 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from C:\Users\omaksymiuk\source\robot_play\HW19
+2025-04-17 16:11:09 - [34mdebug[39m: @playwright\test\node_modules\playwright-core doesn't exist at C:\Users\omaksymiuk\source\robot_play\HW19
+2025-04-17 16:11:09 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from path C:\Users\omaksymiuk\source\robot_play\HW19
+2025-04-17 16:11:09 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from null
+2025-04-17 16:11:09 - [34mdebug[39m: requireModuleV2 :: module - playwright-core, package - null
+2025-04-17 16:11:09 - [34mdebug[39m: Resolved path for playwright-core is C:\Users\omaksymiuk\source\robot_play\HW19\node_modules\playwright-core
+2025-04-17 16:11:09 - [34mdebug[39m: requireModuleV2 :: module - C:\Users\omaksymiuk\source\robot_play\HW19\node_modules\playwright-core\lib\client\browserType.js, package - null
+2025-04-17 16:11:09 - [34mdebug[39m: requireModuleV3 :: module - @playwright\test\node_modules\playwright-core, package - @playwright/test
+2025-04-17 16:11:09 - [34mdebug[39m: requireModuleV2 :: module - @playwright\test\node_modules\playwright-core, package - @playwright/test
+2025-04-17 16:11:09 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from C:\Users\omaksymiuk\source\robot_play\HW19
+2025-04-17 16:11:09 - [34mdebug[39m: @playwright\test\node_modules\playwright-core doesn't exist at C:\Users\omaksymiuk\source\robot_play\HW19
+2025-04-17 16:11:09 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from path C:\Users\omaksymiuk\source\robot_play\HW19
+2025-04-17 16:11:09 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from null
+2025-04-17 16:11:09 - [34mdebug[39m: requireModuleV2 :: module - playwright-core, package - null
+2025-04-17 16:11:09 - [34mdebug[39m: Resolved path for playwright-core is C:\Users\omaksymiuk\source\robot_play\HW19\node_modules\playwright-core
+2025-04-17 16:11:09 - [34mdebug[39m: requireModuleV2 :: module - C:\Users\omaksymiuk\source\robot_play\HW19\node_modules\playwright-core\lib\client\browserContext.js, package - null
+2025-04-17 16:11:09 - [34mdebug[39m: requireModuleV3 :: module - @playwright\test\node_modules\playwright-core, package - @playwright/test
+2025-04-17 16:11:09 - [34mdebug[39m: requireModuleV2 :: module - @playwright\test\node_modules\playwright-core, package - @playwright/test
+2025-04-17 16:11:09 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from C:\Users\omaksymiuk\source\robot_play\HW19
+2025-04-17 16:11:09 - [34mdebug[39m: @playwright\test\node_modules\playwright-core doesn't exist at C:\Users\omaksymiuk\source\robot_play\HW19
+2025-04-17 16:11:09 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from path C:\Users\omaksymiuk\source\robot_play\HW19
+2025-04-17 16:11:09 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from null
+2025-04-17 16:11:09 - [34mdebug[39m: requireModuleV2 :: module - playwright-core, package - null
+2025-04-17 16:11:09 - [34mdebug[39m: Resolved path for playwright-core is C:\Users\omaksymiuk\source\robot_play\HW19\node_modules\playwright-core
+2025-04-17 16:11:09 - [34mdebug[39m: requireModuleV2 :: module - C:\Users\omaksymiuk\source\robot_play\HW19\node_modules\playwright-core\lib\client\android.js, package - null
+2025-04-17 16:11:09 - [34mdebug[39m: requireModuleV3 :: module - @playwright\test\node_modules\playwright-core, package - @playwright/test
+2025-04-17 16:11:09 - [34mdebug[39m: requireModuleV2 :: module - @playwright\test\node_modules\playwright-core, package - @playwright/test
+2025-04-17 16:11:09 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from C:\Users\omaksymiuk\source\robot_play\HW19
+2025-04-17 16:11:09 - [34mdebug[39m: @playwright\test\node_modules\playwright-core doesn't exist at C:\Users\omaksymiuk\source\robot_play\HW19
+2025-04-17 16:11:09 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from path C:\Users\omaksymiuk\source\robot_play\HW19
+2025-04-17 16:11:09 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from null
+2025-04-17 16:11:09 - [34mdebug[39m: requireModuleV2 :: module - playwright-core, package - null
+2025-04-17 16:11:09 - [34mdebug[39m: Resolved path for playwright-core is C:\Users\omaksymiuk\source\robot_play\HW19\node_modules\playwright-core
+2025-04-17 16:11:09 - [34mdebug[39m: requireModuleV2 :: module - C:\Users\omaksymiuk\source\robot_play\HW19\node_modules\playwright-core\lib\client\page.js, package - null
+[35msilly[39m: [2025-04-17T13:11:09.332Z][ OBSERVABILITY ] Finished :: beforeWorkerHook, PID - 3104, Argument - 0
+[34mdebug[39m: [2025-04-17T13:11:09.332Z][ OBSERVABILITY ] Worker Hook started, PID 3104
+[34mdebug[39m: [2025-04-17T13:11:09.341Z][ OBSERVABILITY ] Test Hook started, PID 3104
+[35msilly[39m: [2025-04-17T13:11:09.341Z][ OBSERVABILITY ] Started :: beforeTestHook, PID - 3104, Argument - Navigate to a category
+[35msilly[39m: [2025-04-17T13:11:09.342Z][ OBSERVABILITY ] Sending session details at beforeTestHook
+[35msilly[39m: [2025-04-17T13:11:09.342Z][ OBSERVABILITY ] Finished :: beforeTestHook, PID - 3104, Argument - Navigate to a category
+2025-04-17 16:11:09 - [34mdebug[39m: Error in connecting for android TypeError: Cannot read properties of null (reading 'deviceName')
+2025-04-17 16:11:09 - [34mdebug[39m: requireModuleV3 :: module - @playwright\test\node_modules\playwright-core, package - @playwright/test
+2025-04-17 16:11:09 - [34mdebug[39m: requireModuleV2 :: module - @playwright\test\node_modules\playwright-core, package - @playwright/test
+2025-04-17 16:11:09 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from C:\Users\omaksymiuk\source\robot_play\HW19
+2025-04-17 16:11:09 - [34mdebug[39m: @playwright\test\node_modules\playwright-core doesn't exist at C:\Users\omaksymiuk\source\robot_play\HW19
+2025-04-17 16:11:09 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from path C:\Users\omaksymiuk\source\robot_play\HW19
+2025-04-17 16:11:09 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from null
+2025-04-17 16:11:09 - [34mdebug[39m: requireModuleV2 :: module - playwright-core, package - null
+2025-04-17 16:11:09 - [34mdebug[39m: Resolved path for playwright-core is C:\Users\omaksymiuk\source\robot_play\HW19\node_modules\playwright-core
+2025-04-17 16:11:09 - [34mdebug[39m: requireModuleV2 :: module - C:\Users\omaksymiuk\source\robot_play\HW19\node_modules\playwright-core\lib\client\browserType.js, package - null
+2025-04-17 16:11:09 - [34mdebug[39m: requireModuleV3 :: module - @playwright\test\node_modules\playwright-core, package - @playwright/test
+2025-04-17 16:11:09 - [34mdebug[39m: requireModuleV2 :: module - @playwright\test\node_modules\playwright-core, package - @playwright/test
+2025-04-17 16:11:09 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from C:\Users\omaksymiuk\source\robot_play\HW19
+2025-04-17 16:11:09 - [34mdebug[39m: @playwright\test\node_modules\playwright-core doesn't exist at C:\Users\omaksymiuk\source\robot_play\HW19
+2025-04-17 16:11:09 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from path C:\Users\omaksymiuk\source\robot_play\HW19
+2025-04-17 16:11:09 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from null
+2025-04-17 16:11:09 - [34mdebug[39m: requireModuleV2 :: module - playwright-core, package - null
+2025-04-17 16:11:09 - [34mdebug[39m: Resolved path for playwright-core is C:\Users\omaksymiuk\source\robot_play\HW19\node_modules\playwright-core
+2025-04-17 16:11:09 - [34mdebug[39m: requireModuleV2 :: module - C:\Users\omaksymiuk\source\robot_play\HW19\node_modules\playwright-core\lib\client\browserContext.js, package - null
+2025-04-17 16:11:09 - [34mdebug[39m: requireModuleV3 :: module - @playwright\test\node_modules\playwright-core, package - @playwright/test
+2025-04-17 16:11:09 - [34mdebug[39m: requireModuleV2 :: module - @playwright\test\node_modules\playwright-core, package - @playwright/test
+2025-04-17 16:11:09 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from C:\Users\omaksymiuk\source\robot_play\HW19
+2025-04-17 16:11:09 - [34mdebug[39m: @playwright\test\node_modules\playwright-core doesn't exist at C:\Users\omaksymiuk\source\robot_play\HW19
+2025-04-17 16:11:09 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from path C:\Users\omaksymiuk\source\robot_play\HW19
+2025-04-17 16:11:09 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from null
+2025-04-17 16:11:09 - [34mdebug[39m: requireModuleV2 :: module - playwright-core, package - null
+2025-04-17 16:11:09 - [34mdebug[39m: Resolved path for playwright-core is C:\Users\omaksymiuk\source\robot_play\HW19\node_modules\playwright-core
+2025-04-17 16:11:09 - [34mdebug[39m: requireModuleV2 :: module - C:\Users\omaksymiuk\source\robot_play\HW19\node_modules\playwright-core\lib\client\android.js, package - null
+2025-04-17 16:11:09 - [34mdebug[39m: requireModuleV3 :: module - @playwright\test\node_modules\playwright-core, package - @playwright/test
+2025-04-17 16:11:09 - [34mdebug[39m: requireModuleV2 :: module - @playwright\test\node_modules\playwright-core, package - @playwright/test
+2025-04-17 16:11:09 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from C:\Users\omaksymiuk\source\robot_play\HW19
+2025-04-17 16:11:09 - [34mdebug[39m: @playwright\test\node_modules\playwright-core doesn't exist at C:\Users\omaksymiuk\source\robot_play\HW19
+2025-04-17 16:11:09 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from path C:\Users\omaksymiuk\source\robot_play\HW19
+2025-04-17 16:11:09 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from null
+2025-04-17 16:11:09 - [34mdebug[39m: requireModuleV2 :: module - playwright-core, package - null
+2025-04-17 16:11:09 - [34mdebug[39m: Resolved path for playwright-core is C:\Users\omaksymiuk\source\robot_play\HW19\node_modules\playwright-core
+2025-04-17 16:11:09 - [34mdebug[39m: requireModuleV2 :: module - C:\Users\omaksymiuk\source\robot_play\HW19\node_modules\playwright-core\lib\client\page.js, package - null
+[35msilly[39m: [2025-04-17T13:11:09.333Z][ OBSERVABILITY ] Finished :: beforeWorkerHook, PID - 23320, Argument - 2
+[34mdebug[39m: [2025-04-17T13:11:09.334Z][ OBSERVABILITY ] Worker Hook started, PID 23320
+[34mdebug[39m: [2025-04-17T13:11:09.344Z][ OBSERVABILITY ] Test Hook started, PID 23320
+[35msilly[39m: [2025-04-17T13:11:09.345Z][ OBSERVABILITY ] Started :: beforeTestHook, PID - 23320, Argument - Check search bar functionality
+[35msilly[39m: [2025-04-17T13:11:09.345Z][ OBSERVABILITY ] Sending session details at beforeTestHook
+[35msilly[39m: [2025-04-17T13:11:09.346Z][ OBSERVABILITY ] Finished :: beforeTestHook, PID - 23320, Argument - Check search bar functionality
+2025-04-17 16:11:09 - [34mdebug[39m: Error in connecting for android TypeError: Cannot read properties of null (reading 'deviceName')
+2025-04-17 16:11:09 - [34mdebug[39m: Device Model is not available
+[35msilly[39m: [2025-04-17T13:11:09.754Z][ OBSERVABILITY ] Sending session details at launch
+2025-04-17 16:11:09 - [34mdebug[39m: Device Model is not available
+[35msilly[39m: [2025-04-17T13:11:09.756Z][ OBSERVABILITY ] Sending session details at browser fixture
+2025-04-17 16:11:09 - [34mdebug[39m: Device Model is not available
+[35msilly[39m: [2025-04-17T13:11:09.864Z][ OBSERVABILITY ] Sending session details at launch
+2025-04-17 16:11:09 - [34mdebug[39m: Device Model is not available
+[35msilly[39m: [2025-04-17T13:11:09.866Z][ OBSERVABILITY ] Sending session details at browser fixture
+2025-04-17 16:11:10 - [34mdebug[39m: Device Model is not available
+[35msilly[39m: [2025-04-17T13:11:10.105Z][ OBSERVABILITY ] Sending session details at launch
+2025-04-17 16:11:10 - [34mdebug[39m: Device Model is not available
+[35msilly[39m: [2025-04-17T13:11:10.107Z][ OBSERVABILITY ] Sending session details at browser fixture
+[35msilly[39m: [2025-04-17T13:11:11.326Z][ OBSERVABILITY ] Processing events. Queue Length - 6
+[34mdebug[39m: [2025-04-17T13:11:11.328Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 4293 bytes. Events are 'TestRunStarted':aa24df38-527b-4838-9beb-d8639f43eedc,'TestRunStarted':32cb2c69-1250-4b4a-8bf7-ce7d6a03473d,'TestRunStarted':8910e987-368f-4114-b9d6-7bae0df09a61,'HookRunStarted':0a33fb30-5d1f-4832-8138-850d349e77ae,'HookRunStarted':7c6e8f45-65ae-4541-b3f4-dc6d5f66e0ac,'HookRunStarted':f18b8678-afac-421f-8cbd-b075d62ce194
+[34mdebug[39m: [2025-04-17T13:11:11.965Z][ OBSERVABILITY ] Interval-Queue event successful for events 'TestRunStarted':aa24df38-527b-4838-9beb-d8639f43eedc,'TestRunStarted':32cb2c69-1250-4b4a-8bf7-ce7d6a03473d,'TestRunStarted':8910e987-368f-4114-b9d6-7bae0df09a61,'HookRunStarted':0a33fb30-5d1f-4832-8138-850d349e77ae,'HookRunStarted':7c6e8f45-65ae-4541-b3f4-dc6d5f66e0ac,'HookRunStarted':f18b8678-afac-421f-8cbd-b075d62ce194 -- {"success":true}
+[35msilly[39m: [2025-04-17T13:11:11.965Z][ OBSERVABILITY ] Remaining Queue Length - 0
+[35msilly[39m: [2025-04-17T13:11:21.347Z][ OBSERVABILITY ] Hook Finished with unique id beforeEach hook for chromium-0ca67d56d32d3386bb81-09d296e987b597f98cf3 is triggered
+[35msilly[39m: [2025-04-17T13:11:21.350Z][ OBSERVABILITY ] Processing event - 'LogCreated' undefined
+[35msilly[39m: [2025-04-17T13:11:21.351Z][ OBSERVABILITY ] Processing event - 'HookRunFinished' 7c6e8f45-65ae-4541-b3f4-dc6d5f66e0ac
+[35msilly[39m: [2025-04-17T13:11:21.455Z][ OBSERVABILITY ] Hook Finished with unique id beforeEach hook for chromium-0ca67d56d32d3386bb81-b200d8cde63be7850fff is triggered
+[35msilly[39m: [2025-04-17T13:11:21.456Z][ OBSERVABILITY ] Processing event - 'LogCreated' undefined
+[35msilly[39m: [2025-04-17T13:11:21.456Z][ OBSERVABILITY ] Processing event - 'HookRunFinished' 0a33fb30-5d1f-4832-8138-850d349e77ae
+[35msilly[39m: [2025-04-17T13:11:21.469Z][ OBSERVABILITY ] Processing events. Queue Length - 4
+[34mdebug[39m: [2025-04-17T13:11:21.470Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 6319 bytes. Events are 'LogCreated':undefined,'HookRunFinished':7c6e8f45-65ae-4541-b3f4-dc6d5f66e0ac,'LogCreated':undefined,'HookRunFinished':0a33fb30-5d1f-4832-8138-850d349e77ae
+[35msilly[39m: [2025-04-17T13:11:21.522Z][ OBSERVABILITY ] Hook Finished with unique id beforeEach hook for chromium-0ca67d56d32d3386bb81-a5eb9e2756e8f45fe25c is triggered
+[35msilly[39m: [2025-04-17T13:11:21.522Z][ OBSERVABILITY ] Processing event - 'LogCreated' undefined
+[35msilly[39m: [2025-04-17T13:11:21.523Z][ OBSERVABILITY ] Processing event - 'HookRunFinished' f18b8678-afac-421f-8cbd-b075d62ce194
+[34mdebug[39m: [2025-04-17T13:11:21.630Z][ OBSERVABILITY ] Interval-Queue event successful for events 'LogCreated':undefined,'HookRunFinished':7c6e8f45-65ae-4541-b3f4-dc6d5f66e0ac,'LogCreated':undefined,'HookRunFinished':0a33fb30-5d1f-4832-8138-850d349e77ae -- {"success":true}
+[35msilly[39m: [2025-04-17T13:11:21.631Z][ OBSERVABILITY ] Remaining Queue Length - 2
+[35msilly[39m: [2025-04-17T13:11:23.480Z][ OBSERVABILITY ] Processing events. Queue Length - 2
+[34mdebug[39m: [2025-04-17T13:11:23.483Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 3160 bytes. Events are 'LogCreated':undefined,'HookRunFinished':f18b8678-afac-421f-8cbd-b075d62ce194
+[34mdebug[39m: [2025-04-17T13:11:23.657Z][ OBSERVABILITY ] Interval-Queue event successful for events 'LogCreated':undefined,'HookRunFinished':f18b8678-afac-421f-8cbd-b075d62ce194 -- {"success":true}
+[35msilly[39m: [2025-04-17T13:11:23.657Z][ OBSERVABILITY ] Remaining Queue Length - 0
+[35msilly[39m: [2025-04-17T13:11:25.043Z][ OBSERVABILITY ] Started :: afterTestHook, PID - 3104, Argument - Navigate to a category
+[34mdebug[39m: [2025-04-17T13:11:25.044Z][ OBSERVABILITY ] Started :: Executing After Test Hook, PID - 3104, Test Title - Navigate to a category, Test File - C:\Users\omaksymiuk\source\robot_play\HW19\tests\olx.spec.ts
+[34mdebug[39m: [2025-04-17T13:11:25.046Z][ OBSERVABILITY ] Sending session details for chromium-0ca67d56d32d3386bb81-09d296e987b597f98cf3-0, {
+  local_grid: {
+    browser: 'playwright-chromium',
+    browser_version: '134.0.6998.35',
+    capabilities: {},
+    platform: 'Windows',
+    platform_version: '11',
+    product: null,
+    session_id: undefined
+  }
+}
+[35msilly[39m: [2025-04-17T13:11:25.047Z][ OBSERVABILITY ] Processing event - 'CBTSessionCreated' 32cb2c69-1250-4b4a-8bf7-ce7d6a03473d
+[35msilly[39m: [2025-04-17T13:11:25.049Z][ OBSERVABILITY ] Finished :: afterTestHook, PID - 3104, Argument - Navigate to a category
+2025-04-17 16:11:25 - [34mdebug[39m: Error in browserstack js executor  page.evaluate: Target page, context or browser has been closed
+[34mdebug[39m: [2025-04-17T13:11:25.061Z][ OBSERVABILITY ] Finished :: Executing After Test Hook, PID - 3104, Test Title - Navigate to a category, Test File - C:\Users\omaksymiuk\source\robot_play\HW19\tests\olx.spec.ts
+[34mdebug[39m: [2025-04-17T13:11:25.061Z][ OBSERVABILITY ] Test Hook ended, PID 3104
+[35msilly[39m: [2025-04-17T13:11:25.075Z][ OBSERVABILITY ] Test Finished with unique id chromium-0ca67d56d32d3386bb81-09d296e987b597f98cf3
+[35msilly[39m: [2025-04-17T13:11:25.076Z][ OBSERVABILITY ] Processing event - 'LogCreated' undefined
+2025-04-17 16:11:25 - [34mdebug[39m: Searching for key: path
+[35msilly[39m: [2025-04-17T13:11:25.077Z][ OBSERVABILITY ] Processing event - 'TestRunFinished' 32cb2c69-1250-4b4a-8bf7-ce7d6a03473d
+[34mdebug[39m: [2025-04-17T13:11:25.077Z][ OBSERVABILITY ] Starting sending trace zip for test: 32cb2c69-1250-4b4a-8bf7-ce7d6a03473d
+2025-04-17 16:11:25 - [34mdebug[39m: Checking if trace is enabled for test: 32cb2c69-1250-4b4a-8bf7-ce7d6a03473d
+2025-04-17 16:11:25 - [34mdebug[39m: Searching for key: path
+[35msilly[39m: [2025-04-17T13:11:25.309Z][ OBSERVABILITY ] Started :: afterTestHook, PID - 6472, Argument - Check footer links
+[34mdebug[39m: [2025-04-17T13:11:25.310Z][ OBSERVABILITY ] Started :: Executing After Test Hook, PID - 6472, Test Title - Check footer links, Test File - C:\Users\omaksymiuk\source\robot_play\HW19\tests\olx.spec.ts
+[34mdebug[39m: [2025-04-17T13:11:25.312Z][ OBSERVABILITY ] Sending session details for chromium-0ca67d56d32d3386bb81-b200d8cde63be7850fff-0, {
+  local_grid: {
+    browser: 'playwright-chromium',
+    browser_version: '134.0.6998.35',
+    capabilities: {},
+    platform: 'Windows',
+    platform_version: '11',
+    product: null,
+    session_id: undefined
+  }
+}
+[35msilly[39m: [2025-04-17T13:11:25.313Z][ OBSERVABILITY ] Processing event - 'CBTSessionCreated' aa24df38-527b-4838-9beb-d8639f43eedc
+[35msilly[39m: [2025-04-17T13:11:25.314Z][ OBSERVABILITY ] Finished :: afterTestHook, PID - 6472, Argument - Check footer links
+2025-04-17 16:11:25 - [34mdebug[39m: Error in browserstack js executor  page.evaluate: Target page, context or browser has been closed
+[34mdebug[39m: [2025-04-17T13:11:25.325Z][ OBSERVABILITY ] Finished :: Executing After Test Hook, PID - 6472, Test Title - Check footer links, Test File - C:\Users\omaksymiuk\source\robot_play\HW19\tests\olx.spec.ts
+[34mdebug[39m: [2025-04-17T13:11:25.325Z][ OBSERVABILITY ] Test Hook ended, PID 6472
+[35msilly[39m: [2025-04-17T13:11:25.331Z][ OBSERVABILITY ] Test Finished with unique id chromium-0ca67d56d32d3386bb81-b200d8cde63be7850fff
+[35msilly[39m: [2025-04-17T13:11:25.332Z][ OBSERVABILITY ] Processing event - 'LogCreated' undefined
+2025-04-17 16:11:25 - [34mdebug[39m: Searching for key: path
+[35msilly[39m: [2025-04-17T13:11:25.332Z][ OBSERVABILITY ] Processing event - 'TestRunFinished' aa24df38-527b-4838-9beb-d8639f43eedc
+[34mdebug[39m: [2025-04-17T13:11:25.333Z][ OBSERVABILITY ] Starting sending trace zip for test: aa24df38-527b-4838-9beb-d8639f43eedc
+2025-04-17 16:11:25 - [34mdebug[39m: Checking if trace is enabled for test: aa24df38-527b-4838-9beb-d8639f43eedc
+2025-04-17 16:11:25 - [34mdebug[39m: Searching for key: path
+[35msilly[39m: [2025-04-17T13:11:25.488Z][ OBSERVABILITY ] Processing events. Queue Length - 4
+[34mdebug[39m: [2025-04-17T13:11:25.489Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 3597 bytes. Events are 'LogCreated':undefined,'TestRunFinished':32cb2c69-1250-4b4a-8bf7-ce7d6a03473d,'LogCreated':undefined,'TestRunFinished':aa24df38-527b-4838-9beb-d8639f43eedc
+[34mdebug[39m: [2025-04-17T13:11:25.623Z][ OBSERVABILITY ] Interval-Queue event successful for events 'LogCreated':undefined,'TestRunFinished':32cb2c69-1250-4b4a-8bf7-ce7d6a03473d,'LogCreated':undefined,'TestRunFinished':aa24df38-527b-4838-9beb-d8639f43eedc -- {"success":true}
+[35msilly[39m: [2025-04-17T13:11:25.623Z][ OBSERVABILITY ] Remaining Queue Length - 0
+[35msilly[39m: [2025-04-17T13:11:25.637Z][ OBSERVABILITY ] Started :: afterTestHook, PID - 23320, Argument - Check search bar functionality
+[34mdebug[39m: [2025-04-17T13:11:25.638Z][ OBSERVABILITY ] Started :: Executing After Test Hook, PID - 23320, Test Title - Check search bar functionality, Test File - C:\Users\omaksymiuk\source\robot_play\HW19\tests\olx.spec.ts
+[34mdebug[39m: [2025-04-17T13:11:25.640Z][ OBSERVABILITY ] Sending session details for chromium-0ca67d56d32d3386bb81-a5eb9e2756e8f45fe25c-0, {
+  local_grid: {
+    browser: 'playwright-chromium',
+    browser_version: '134.0.6998.35',
+    capabilities: {},
+    platform: 'Windows',
+    platform_version: '11',
+    product: null,
+    session_id: undefined
+  }
+}
+[35msilly[39m: [2025-04-17T13:11:25.641Z][ OBSERVABILITY ] Processing event - 'CBTSessionCreated' 8910e987-368f-4114-b9d6-7bae0df09a61
+[35msilly[39m: [2025-04-17T13:11:25.642Z][ OBSERVABILITY ] Finished :: afterTestHook, PID - 23320, Argument - Check search bar functionality
+2025-04-17 16:11:25 - [34mdebug[39m: Error in browserstack js executor  page.evaluate: Target page, context or browser has been closed
+[34mdebug[39m: [2025-04-17T13:11:25.652Z][ OBSERVABILITY ] Finished :: Executing After Test Hook, PID - 23320, Test Title - Check search bar functionality, Test File - C:\Users\omaksymiuk\source\robot_play\HW19\tests\olx.spec.ts
+[34mdebug[39m: [2025-04-17T13:11:25.652Z][ OBSERVABILITY ] Test Hook ended, PID 23320
+[35msilly[39m: [2025-04-17T13:11:26.898Z][ OBSERVABILITY ] Started :: afterWorkerHook, PID - 3104, Argument - 0
+[35msilly[39m: [2025-04-17T13:11:26.899Z][ OBSERVABILITY ] Finished :: afterWorkerHook, PID - 3104, Argument - 0
+[35msilly[39m: [2025-04-17T13:11:26.927Z][ OBSERVABILITY ] Started :: afterWorkerHook, PID - 23320, Argument - 2
+[35msilly[39m: [2025-04-17T13:11:26.928Z][ OBSERVABILITY ] Finished :: afterWorkerHook, PID - 23320, Argument - 2
+[35msilly[39m: [2025-04-17T13:11:27.051Z][ OBSERVABILITY ] Processing events. Queue Length - 1
+[35msilly[39m: [2025-04-17T13:11:27.088Z][ OBSERVABILITY ] Started :: afterWorkerHook, PID - 6472, Argument - 1
+[35msilly[39m: [2025-04-17T13:11:27.089Z][ OBSERVABILITY ] Finished :: afterWorkerHook, PID - 6472, Argument - 1
+[34mdebug[39m: [2025-04-17T13:11:27.052Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 271 bytes. Events are 'CBTSessionCreated':32cb2c69-1250-4b4a-8bf7-ce7d6a03473d
+[35msilly[39m: [2025-04-17T13:11:27.319Z][ OBSERVABILITY ] Processing events. Queue Length - 1
+[34mdebug[39m: [2025-04-17T13:11:27.319Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 271 bytes. Events are 'CBTSessionCreated':aa24df38-527b-4838-9beb-d8639f43eedc
+[34mdebug[39m: [2025-04-17T13:11:27.535Z][ OBSERVABILITY ] Interval-Queue event successful for events 'CBTSessionCreated':32cb2c69-1250-4b4a-8bf7-ce7d6a03473d -- {"success":true}
+[35msilly[39m: [2025-04-17T13:11:27.535Z][ OBSERVABILITY ] Remaining Queue Length - 0
+[34mdebug[39m: [2025-04-17T13:11:27.572Z][ OBSERVABILITY ] Finished :: Exiting Playwright worker, PID - 3104, WorkerIndex - 0
+[35msilly[39m: [2025-04-17T13:11:27.659Z][ OBSERVABILITY ] Processing events. Queue Length - 1
+[34mdebug[39m: [2025-04-17T13:11:27.661Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 271 bytes. Events are 'CBTSessionCreated':8910e987-368f-4114-b9d6-7bae0df09a61
+[34mdebug[39m: [2025-04-17T13:11:27.800Z][ OBSERVABILITY ] Interval-Queue event successful for events 'CBTSessionCreated':aa24df38-527b-4838-9beb-d8639f43eedc -- {"success":true}
+[35msilly[39m: [2025-04-17T13:11:27.801Z][ OBSERVABILITY ] Remaining Queue Length - 0
+[34mdebug[39m: [2025-04-17T13:11:27.837Z][ OBSERVABILITY ] Finished :: Exiting Playwright worker, PID - 6472, WorkerIndex - 1
+[34mdebug[39m: [2025-04-17T13:11:28.233Z][ OBSERVABILITY ] Interval-Queue event successful for events 'CBTSessionCreated':8910e987-368f-4114-b9d6-7bae0df09a61 -- {"success":true}
+[35msilly[39m: [2025-04-17T13:11:28.234Z][ OBSERVABILITY ] Remaining Queue Length - 0
+[34mdebug[39m: [2025-04-17T13:11:28.303Z][ OBSERVABILITY ] Finished :: Exiting Playwright worker, PID - 23320, WorkerIndex - 2
+[35msilly[39m: [2025-04-17T13:11:28.309Z][ OBSERVABILITY ] Test Finished with unique id chromium-0ca67d56d32d3386bb81-a5eb9e2756e8f45fe25c
+[35msilly[39m: [2025-04-17T13:11:28.310Z][ OBSERVABILITY ] Processing event - 'LogCreated' undefined
+2025-04-17 16:11:28 - [34mdebug[39m: Searching for key: path
+[35msilly[39m: [2025-04-17T13:11:28.311Z][ OBSERVABILITY ] Processing event - 'TestRunFinished' 8910e987-368f-4114-b9d6-7bae0df09a61
+[34mdebug[39m: [2025-04-17T13:11:28.311Z][ OBSERVABILITY ] Starting sending trace zip for test: 8910e987-368f-4114-b9d6-7bae0df09a61
+2025-04-17 16:11:28 - [34mdebug[39m: Checking if trace is enabled for test: 8910e987-368f-4114-b9d6-7bae0df09a61
+2025-04-17 16:11:28 - [34mdebug[39m: Searching for key: path
+[35msilly[39m: [2025-04-17T13:11:29.515Z][ OBSERVABILITY ] Processing events. Queue Length - 2
+[34mdebug[39m: [2025-04-17T13:11:29.516Z][ OBSERVABILITY ] Processing batch events for Interval-Queue. Request Size - 4460 bytes. Events are 'LogCreated':undefined,'TestRunFinished':8910e987-368f-4114-b9d6-7bae0df09a61
+[34mdebug[39m: [2025-04-17T13:11:29.694Z][ OBSERVABILITY ] Interval-Queue event successful for events 'LogCreated':undefined,'TestRunFinished':8910e987-368f-4114-b9d6-7bae0df09a61 -- {"success":true}
+[35msilly[39m: [2025-04-17T13:11:29.694Z][ OBSERVABILITY ] Remaining Queue Length - 0
