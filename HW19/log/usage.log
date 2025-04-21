@@ -1,0 +1,33 @@
+2025-04-17 15:52:47 - [32minfo[39m: Creating configuration file...
+2025-04-17 15:52:47 - [32minfo[39m: Adding new script(s) in package.json...
+2025-04-17 15:52:47 - [32minfo[39m: Setup completed
+2025-04-17 15:55:45 - [32minfo[39m: Running SDK with args C:\nvm4w\nodejs\node.exe C:\Users\omaksymiuk\source\robot_play\HW19\node_modules\browserstack-node-sdk\src\bin\runner.js playwright test
+2025-04-17 15:55:45 - [32minfo[39m: Reading configs from C:\Users\omaksymiuk\source\robot_play\HW19\browserstack.yml
+2025-04-17 15:55:45 - [32minfo[39m: SDK run started with id: 0e4d92c6-9201-4dc5-9acf-007fb32f4e15
+2025-04-17 15:55:45 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-04-17 15:55:53 - [32minfo[39m: Local binary started successfully
+2025-04-17 15:55:55 - [32minfo[39m: Testhub started with id: ajuogmtk0xoxgs2uo1r4cca4mhlelxkad29wfabd
+2025-04-17 16:04:02 - [32minfo[39m: Shutdown triggered by SIGINT
+2025-04-17 16:05:58 - [32minfo[39m: Running SDK with args C:\nvm4w\nodejs\node.exe C:\Users\omaksymiuk\source\robot_play\HW19\node_modules\browserstack-node-sdk\src\bin\runner.js playwright test
+2025-04-17 16:05:58 - [32minfo[39m: Reading configs from C:\Users\omaksymiuk\source\robot_play\HW19\browserstack.yml
+2025-04-17 16:05:58 - [32minfo[39m: SDK run started with id: f1ea6366-aa75-429c-a5b9-83582eec0acf
+2025-04-17 16:05:58 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-04-17 16:06:03 - [32minfo[39m: Local binary started successfully
+2025-04-17 16:06:05 - [32minfo[39m: Testhub started with id: bqdzlqfnn6sho6kwepammwkbbgl5xmwauapml9ld
+2025-04-17 16:09:52 - [32minfo[39m: Shutdown triggered by SIGINT
+2025-04-17 16:10:38 - [32minfo[39m: Visit https://observability.browserstack.com/builds/bqdzlqfnn6sho6kwepammwkbbgl5xmwauapml9ld to view build report, insights, and many more debugging information all at one place!
+
+2025-04-17 16:10:38 - [32minfo[39m: Shutdown triggered by SIGHUP
+2025-04-17 16:10:38 - [32minfo[39m: View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/5528fc820373f4c2b273fb3ddd057f3eb10149c8
+2025-04-17 16:10:38 - [32minfo[39m: SDK run ended for id: f1ea6366-aa75-429c-a5b9-83582eec0acf, testhub id: bqdzlqfnn6sho6kwepammwkbbgl5xmwauapml9ld
+2025-04-17 16:10:40 - [32minfo[39m: Deleting C:\Users\omaksymiuk\source\robot_play\HW19\playwright-browserstack-sdk.config.ts
+2025-04-17 16:10:41 - [32minfo[39m: Visit https://observability.browserstack.com/builds/ajuogmtk0xoxgs2uo1r4cca4mhlelxkad29wfabd to view build report, insights, and many more debugging information all at one place!
+
+2025-04-17 16:10:41 - [32minfo[39m: Shutdown triggered by SIGHUP
+2025-04-17 16:10:42 - [32minfo[39m: View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/cc68b21d0610a7abe1d95a33d624a3bcb5b66ddb
+2025-04-17 16:10:42 - [32minfo[39m: SDK run ended for id: 0e4d92c6-9201-4dc5-9acf-007fb32f4e15, testhub id: ajuogmtk0xoxgs2uo1r4cca4mhlelxkad29wfabd
+2025-04-17 16:10:43 - [32minfo[39m: Deleting C:\Users\omaksymiuk\source\robot_play\HW19\playwright-browserstack-sdk.config.ts
+2025-04-17 16:10:58 - [32minfo[39m: Running SDK with args C:\nvm4w\nodejs\node.exe C:\Users\omaksymiuk\source\robot_play\HW19\node_modules\browserstack-node-sdk\src\bin\runner.js playwright test
+2025-04-17 16:10:58 - [32minfo[39m: Reading configs from C:\Users\omaksymiuk\source\robot_play\HW19\browserstack.yml
+2025-04-17 16:10:58 - [32minfo[39m: SDK run started with id: 85239cc1-c7a8-4d9f-b84d-863352980487
+2025-04-17 16:11:00 - [32minfo[39m: Testhub started with id: txmay2ghgtetv35wkauefdc9vselsstmz1bpcimo
