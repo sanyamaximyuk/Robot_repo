@@ -14,7 +14,11 @@ jobs:
   build:
 
     env:
-      BUILD_FOLDER: ./lesson18-19-playwright-test
+      BUILD_FOLDER: ./HW18
+      HEADLESS: true
+
+    env:
+      BUILD_FOLDER: ./HW17/webdriver-io
       HEADLESS: true
 
     runs-on: ubuntu-latest
