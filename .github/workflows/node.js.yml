@@ -17,10 +17,6 @@ jobs:
       BUILD_FOLDER: ./HW18
       HEADLESS: true
 
-    env:
-      BUILD_FOLDER: ./HW17/webdriver-io
-      HEADLESS: true
-
     runs-on: ubuntu-latest
 
     strategy:
