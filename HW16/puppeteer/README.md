@@ -1,1 +1,1 @@
-set Mocha
+puppeteer configured
