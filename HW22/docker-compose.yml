@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: ./usr/app
+      dockerfile: Dockerfile
+    container_name: expense-tracker-app
+    ports:
+      - "3001:3000"
+    restart: unless-stopped
+   
+    healthcheck:
+       test: ["CMD", "wget", "--spider", "-q", "http://localhost:3001"]
+       interval: 10s
+       timeout: 5s
+       retries: 5
+       start_period: 10s
+
+  tests:
+    build:
+      context: ./usr/tests
+      dockerfile: Dockerfile
+    container_name: playwright-tests
+    environment:
+      - BASE_URL=http://app:3001
+    depends_on:
+       app:
+         condition: service_started
